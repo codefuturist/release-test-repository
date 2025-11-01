@@ -5,6 +5,7 @@ on:
 
 jobs:
   release:
+    environment: production  # ← This targets the environment
     permissions:
       contents: write
       issues: write
